@@ -5,10 +5,10 @@
 ### Technology used in this Project: 
 Html,Css,Bootstrap,Javascript are used to build the project
 
-  
-### It is a Javascript Version, for Springboot version see https://github.com/swapnilbamble1438/VotingApp
+Try this Project url: https://swapnilbamble1438.github.io/VotingApplication/
 
 ### Software And Tools Required:
 Visual Studio
 
-Try this Project url: https://swapnilbamble1438.github.io/VotingApplication/
+### It is a Javascript Version, for Springboot version see https://github.com/swapnilbamble1438/VotingApp
+
