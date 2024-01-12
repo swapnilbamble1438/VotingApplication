@@ -7,6 +7,6 @@ function checkAdmin()
 
     if(email != "admin" && password != "admin")
     {
-        window.location.href = "adminsignin.html";
+        window.location.href = "signin.html";
     }
 }
