@@ -29,7 +29,7 @@ function showVoter()
 
             if(b == 0)
             {
-                window.location.href = "votersignin.html";
+                window.location.href = "signin.html";
             }
             document.getElementById("voternameatnav").innerHTML = votersObj[i][0];
 
