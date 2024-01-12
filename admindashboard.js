@@ -17,19 +17,19 @@ function showAdminDashboard()
     let c3totalvotes = candidatesObj[2];
     let c4totalvotes = candidatesObj[3];
 
-    if( c1totalvotes == undefined )
+    if( c1totalvotes === undefined )
     {
         c1totalvotes = 0;
     }
-    if(c2totalvotes == undefined)
+    if(c2totalvotes === undefined)
     {
         c2totalvotes = 0;
     }
-    if(c3totalvotes == undefined)
+    if(c3totalvotes === undefined)
     {
         c3totalvotes = 0;
     }
-    if(c4totalvotes == undefined)
+    if(c4totalvotes === undefined)
     {
         c4totalvotes = 0
     }
