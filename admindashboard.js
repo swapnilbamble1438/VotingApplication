@@ -18,7 +18,7 @@ function showAdminDashboard()
    let c3totalvotes = 0;
    let c4totalvotes= 0;
 
-    if(candidatesObj == [] || candidatesObj == null )
+    if(candidates == undefined || candidates == null )
     {
         c1totalvotes = 0;
         c2totalvotes = 0;
