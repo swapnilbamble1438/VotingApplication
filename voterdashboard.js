@@ -64,10 +64,10 @@ function dovote(email)
 
     var ele = document.getElementsByName('candidate');
     
-    let candidate1=0;
-    let candidate2=0;
-    let candidate3=0;
-    let candidate4=0;
+    var candidate1=0;
+    var candidate2=0;
+    var candidate3=0;
+    var candidate4=0;
 
     let s=0;
     for (i = 0; i < ele.length; i++) 
@@ -136,19 +136,22 @@ function dovote(email)
         // let candidate =[candidate1,candidate2,candidate3,candidate4];
 
         let candidates = localStorage.getItem("allcandidates");
-        if(candidates == null)
+        if(candidates == null )
         {
             candidatesObj =[];
         }
         else{
             candidatesObj = JSON.parse(candidates);
         }
-
+        if(candidatesObj.length == 0)
+        {
+            candidatesObj = [0,0,0,0];
+        }    
             candidatesObj[0] = candidatesObj[0] + candidate1;
             candidatesObj[1] = candidatesObj[1] + candidate2;
             candidatesObj[2] = candidatesObj[2] + candidate3;
             candidatesObj[3] = candidatesObj[3] + candidate4;
-          
+        
             localStorage.setItem("allcandidates",JSON.stringify(candidatesObj));
 
           //=========== update voter =======================================
