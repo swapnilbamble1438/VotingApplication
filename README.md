@@ -15,3 +15,5 @@ Html,Css,Bootstrap,Javascript are used to build the project
 Visual Studio
 
 ### Its a Javascript Version, for Springboot version see https://github.com/swapnilbamble1438/VotingApp
+
+### and for Java J2EE version see https://github.com/swapnilbamble1438/VotingAppJ2EE
