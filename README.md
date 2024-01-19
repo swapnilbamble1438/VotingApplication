@@ -1,4 +1,4 @@
-# VotingApplication
+# VotingApplication - Java J2EE
 
 ## It is a Javascript Application
 ## It is a Voting Application. 
